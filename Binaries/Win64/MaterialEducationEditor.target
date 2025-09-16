@@ -34,6 +34,18 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/MaterialEssential/Binaries/Win64/UnrealEditor-MaterialEssential.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/MaterialEssential/Binaries/Win64/UnrealEditor-MaterialEssential.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/MaterialEssential/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Win64/AgentInterface.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -4253,6 +4265,10 @@
 	"RuntimeDependencies": [
 		{
 			"Path": "$(ProjectDir)/MaterialEducation.uproject",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/MaterialEssential/MaterialEssential.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -28876,6 +28892,7 @@
 		"MacGraphicsSwitching",
 		"MassInsights",
 		"MaterialAnalyzer",
+		"MaterialEssential",
 		"MediaCompositing",
 		"MediaPlate",
 		"MediaPlayerEditor",

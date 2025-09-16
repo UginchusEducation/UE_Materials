@@ -1,0 +1,3 @@
+[submodule "Plugins/MaterialEssential"]
+	path = Plugins/MaterialEssential
+	url = git@github.com:UginchusEducation/MaterialEssential.git
